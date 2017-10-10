@@ -1,21 +1,22 @@
 {
-  "name": "burger",
+  "name": "GoodBurger",
   "version": "1.0.0",
   "description": "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakierice/burger.git"
+    "url": "git+https://github.com/CharlesRMc/GoodBurger"
   },
-  "author": "Jakie W. Rice",
+  "author": "Charles McDowell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jakierice/burger/issues"
+    "url": "https://github.com/CharlesRMc/GoodBurger/issues"
   },
-  "homepage": "https://github.com/jakierice/burger#readme",
+  "homepage": "https://github.com/CharlesRMc/GoodBurger#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.1",

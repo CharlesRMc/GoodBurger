@@ -6,8 +6,6 @@ const keys = require('./keys');
 const connection = mysql.createConnection({
 	port: 3306,
 	host: "localhost",
-	// user: 'root',
-	// password: 'evaunit2',
 	user: keys.user,
 	password: keys.password,
 	database: "burgers_db"
